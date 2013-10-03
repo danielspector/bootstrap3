@@ -17,19 +17,20 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: bootstrap3_development
+  database: dcvusmmoaa29bh
   pool: 5
-  username: bootstrap3
-  password:
-
+  username: ldvgpahugqoebe
+  password: PBQj2_njxaMP57IejF74DuEG38
+  host: ec2-54-225-127-246.compute-1.amazonaws.com
+  port: 5432
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
   # domain sockets, so uncomment these lines.
-  #host: localhost
+  # host: localhost
 
   # The TCP port the server listens on. Defaults to 5432.
   # If your server runs on a different port number, change accordingly.
-  #port: 5432
+  
 
   # Schema search path. The server defaults to $user,public
   #schema_search_path: myapp,sharedapp,public
